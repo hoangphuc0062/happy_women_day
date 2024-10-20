@@ -5,7 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 :root {
   --dark-color: #000;
 }
@@ -1175,14 +1175,17 @@ body {
   animation-play-state: paused !important;
 }
 
-.neonText {
+.wish__area {
   position: absolute;
+  font-family: "Dancing Script", cursive;
   font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
   margin-top: 20px;
   top: 5%;
   color: #fff;
+}
+.neonText {
   text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
